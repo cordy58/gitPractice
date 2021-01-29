@@ -1,0 +1,42 @@
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #301A1D;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.menu li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.menu li a:hover {
+  background-color: #4F1B22;
+}
+.menu li .active {
+  background-color: #4CAF50;
+}
+
+.page {
+  border-top: 20px solid #8C98A8;
+  text-align: center;
+  background-color: #DFE3DC;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+  list-style-type: circle;
+}
+.title {
+  font: "Yellowtail";
+}
